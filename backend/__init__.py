@@ -1,0 +1,1 @@
+# Backend package for Meeting Minutes AI

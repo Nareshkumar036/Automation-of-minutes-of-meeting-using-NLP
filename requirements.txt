@@ -1,0 +1,53 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+sqlalchemy==2.0.25
+alembic==1.13.1
+pydantic==2.5.2
+
+# Audio Processing
+librosa==0.10.1
+noisereduce==3.0.0
+soundfile==0.12.1
+pyaudio==0.2.11
+
+# AI and Machine Learning
+torch==2.1.2
+transformers==4.36.2
+sentence-transformers==2.2.2
+openai==1.6.1
+pyannote.audio==3.1.1
+
+# NLP and Text Processing
+spacy==3.7.2
+nltk==3.8.1
+textstat==0.7.3
+
+# Database
+psycopg2-binary==2.9.9
+redis==5.0.1
+
+# File Processing
+python-multipart==0.0.6
+aiofiles==23.2.1
+Pillow==10.1.0
+
+# Document Generation
+reportlab==4.0.8
+python-docx==1.1.0
+fpdf2==2.7.6
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Utilities
+python-dotenv==1.0.0
+celery==5.3.4
+pytest==7.4.4
+httpx==0.26.0
+loguru==0.7.2
+
+# Frontend (if serving from same server)
+jinja2==3.1.2
